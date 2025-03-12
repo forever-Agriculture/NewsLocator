@@ -1,0 +1,21 @@
+# Python
+venv/
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# Environment files
+.env
+.env.local
+
+# Data files
+data/
+
+# IDE/Editor
+.vscode/
+.idea/
+.cursorrules
+.cursorignore
+
+# OS files
+.DS_Store
