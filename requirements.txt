@@ -1,0 +1,15 @@
+# Core Dependencies
+feedparser==6.0.11
+python-dotenv==1.0.1
+requests==2.32.3
+openai==1.64.0
+tenacity==9.0.0
+
+# Utility Libraries
+python-dateutil==2.9.0.post0
+beautifulsoup4==4.13.3
+soupsieve==2.6
+
+# Development & Testing Tools
+pytest==8.3.4
+black==25.1.0 

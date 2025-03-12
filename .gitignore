@@ -1,21 +1,42 @@
 # Python
-venv/
-*.pyc
 __pycache__/
-.pytest_cache/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Environment files
-.env
-.env.local
+# Virtual Environment
+venv/
+ENV/
+env/
 
-# Data files
-data/
-
-# IDE/Editor
-.vscode/
+# IDE
 .idea/
-.cursorrules
-.cursorignore
+.vscode/
+*.swp
+*.swo
 
-# OS files
+# Application specific
+.env
+data/
+output/
+logs/
+
+# OS specific
 .DS_Store
+Thumbs.db
